@@ -1,0 +1,22 @@
+{
+  "name": "a-rest-api-with-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akolinski/A-REST-API-With-JSON-Server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akolinski/A-REST-API-With-JSON-Server/issues"
+  },
+  "homepage": "https://github.com/akolinski/A-REST-API-With-JSON-Server#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
