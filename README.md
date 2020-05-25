@@ -6,7 +6,7 @@ Create A REST API With JSON Server
 npm install
 ```
 
-##To get the API running 
+## To get the API running 
 
 ```
 json-server javascriptFile.js
