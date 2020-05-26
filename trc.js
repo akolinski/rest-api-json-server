@@ -23,14 +23,14 @@ function generateTRC() {
         // Set up dummy data objects for strands
         for (let strand_id = 0; strand_id < 4; strand_id++) {
             let strands = {
-                "id": strand_id,
-                "slug": faker.address.state(),
-                "title": faker.address.state(),
-                "combinedTitle": faker.address.stateAbbr(),
-                "group": "",
-                "description": faker.address.latitude(),
-                "annotatedQuestions": "",
-                "teachingActivities": teachingActivities
+                "strand_id": strand_id,
+                "strand_slug": faker.address.state(),
+                "strand_title": "Retrieve",
+                "strand_combinedTitle": faker.address.stateAbbr(),
+                "strand_group": "",
+                "strand_description": faker.address.latitude(),
+                "strand_annotatedQuestions": "",
+                "strand_teachingActivities": teachingActivities
             };
             strand.push(strands); // Push strand objects to the strands array
         }
@@ -38,10 +38,10 @@ function generateTRC() {
         // Set up dummy data objects for bands
         for (let i = 0; i < 10; i++) {
             let band = {
-                "id": i,
-                "slug": faker.address.country(),
-                "title": faker.address.country(),
-                "description": faker.address.latitude(),
+                "band_id": i,
+                "band_slug": faker.address.country(),
+                "band_title": faker.address.country(),
+                "band_description": faker.address.latitude(),
                 "strands": strand
             };
             bands.push(band); // Push band objects to the bands array
